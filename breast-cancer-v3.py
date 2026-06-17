@@ -8,7 +8,7 @@ from sklearn.model_selection import cross_val_score,train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import precision_score, recall_score,classification_report,confusion_matrix,roc_curve,auc
-from library.visualization import plot_histograms,plot_pca_scatter,plot_model_predictions
+from library.visualization import plot_pca_scatter
 from sklearn.impute import SimpleImputer
 from sklearn.manifold import TSNE
 
